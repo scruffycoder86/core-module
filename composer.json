@@ -1,0 +1,29 @@
+{
+  "name": "digital-closuxe/covid19-platform",
+  "require": {
+    "symfony/yaml": "^5.0",
+    "symfony/config": "^5.0",
+    "symfony/dependency-injection": "^5.0",
+    "doctrine/annotations": "^1.10",
+    "guzzlehttp/guzzle": "^6.5",
+    "illuminate/routing": "^5.7",
+    "illuminate/events": "^5.7",
+    "predis/predis": "^1.1",
+    "php-di/php-di": "^6.0",
+    "twig/twig": "^1.18",
+    "mnapoli/silly": "^1.7",
+    "gitonomy/gitlib": "^1.2",
+    "doctrine/orm": "^2.7",
+    "ramsey/uuid-doctrine": "^1.6",
+    "nilportugues/xml": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "@stable",
+    "behat/behat": "^3.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "DigitalClosuxe\\": [ "app/", "src/" ]
+    }
+  }
+}
